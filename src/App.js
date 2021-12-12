@@ -5,6 +5,7 @@ import Header from './components/Header';
 import axios from 'axios';
 import {useState, useEffect} from 'react';
 import Punklist from './components/Punklist';
+import Main from './components/Main';
 
 function App() {
  const [punkListData, setPunkListData] = useState([]);
@@ -22,6 +23,7 @@ function App() {
          <Header/>
          {/* <CollectionCard id ={0} name={'cyber celesital'} traits={[{'value': 7}]}
          image='https://lh3.googleusercontent.com/khhnfp0Z_o83TEUzZ1Inh6PfQgFca2Skbx2bLCaW5IM-xqC8EPFg5aDUEqJCjLwEujz-48EYJ-AcrhF8FNiM4It31_fqh_mwMxRKCEc=w600'/> */}
+         <Main/>
          <Punklist punkListData ={punkListData}/>
     </div>
 
