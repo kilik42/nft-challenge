@@ -1,6 +1,6 @@
-import React from 'react'
-import './CollectionCard.css'
-import weth from './assets/weth.png'
+import React from 'react';
+import './CollectionCard.css';
+import weth from '../assets/weth.png';
 const CollectionCard = ({id, name, traits, image}) => {
     return (
         <div className='collectionCard'>

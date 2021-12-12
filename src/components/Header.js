@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css';
 import punkLogo from '../assets/cryptopunk-logo.png';
-import searchIcon from './assets/search.png';
+import searchIcon from '../assets/search.png';
 import themeSwitchIcon from '../assets/theme-switch.png'
 const Header = () => {
     return (

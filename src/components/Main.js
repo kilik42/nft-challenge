@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Main.css'
 const Main = () => {
+    const[activePunk, setActivePunk] = useState([]);
     return (
         <div className='main'>
             <div className="mainContent">
