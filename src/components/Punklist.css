@@ -1,0 +1,10 @@
+.punklist{
+    display:flex;
+    cursor: pointer;
+    overflow:scroll;
+
+}
+
+.punklist::-webkit-scrollbar{
+    display: none;
+}
