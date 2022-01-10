@@ -1,7 +1,15 @@
 import React, { useState } from 'react'
+import twitter from '../assets/twitter.png';
+import moreIcon from '../assets/moreIcon.png';
+
 import './Main.css'
-const Main = () => {
-    const[activePunk, setActivePunk] = useState([]);
+const Main = ({selectedPunk, punkListData}) => {
+    const[activePunk, setActivePunk] = useState(punkListData[0]);
+
+    useEffect(() => {
+        setActivePunk(punkListData[selectedPunk]);
+
+    }, [punkListData, selectedPunk]);
     return (
         <div className='main'>
             <div className="mainContent">
